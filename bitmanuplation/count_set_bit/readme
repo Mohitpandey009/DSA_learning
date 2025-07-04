@@ -1,0 +1,30 @@
+this is the "Brian Kernighans Algorithm"
+to get the cout of the setBit in a number
+
+here we perform the (&) operation between the number and the 
+number-1 
+
+
+number   = 7 => 111
+number-1 = 6 => 110
+
+number   = 5 => 101
+number-1 = 4 => 100
+
+number   = 12 => 1100
+number-1 = 11 => 1011
+
+number & (number-1)
+
+bit  bit-1   bit=bit&(bit-1)  count
+12    11      8                0
+                               1
+8     7       0               
+                               2
+
+here we calculate the setBit of the number to perform the & 
+between number and number-1
+
+ -> number-1 always has one unset bit compare to the number
+
+ -> so here we perform & operation and intialize the result again in number and increase the count

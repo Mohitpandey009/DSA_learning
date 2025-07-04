@@ -1,0 +1,16 @@
+In this code I am checking the number pairty bit are diffreant 
+or not 
+ look here 
+ num = 10  => 1010  (the pairty bit here diffrent )
+ num = 8   => 1000  (here the only last bit is diffrent all other same so its not pairty bit)
+
+ operation ->
+
+ pair = num>>1
+
+ we righ shift the num so we get the exact diffrent bit of the num 
+
+ num^pair
+
+ now we perform the xor in between the if they are exactly same the result all bit are 1 (set)
+
