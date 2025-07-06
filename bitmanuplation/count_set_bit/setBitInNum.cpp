@@ -11,9 +11,7 @@ class getbit{
 
         int countgetBit(){
             while(bit){
-                // cout<<bit<<"  "<<(bit-1);
                 bit = bit&(bit-1);
-                // cout<<endl<<bit<<endl;
                 count++;
             }
             return count;

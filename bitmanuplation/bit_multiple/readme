@@ -1,0 +1,19 @@
+Here we not used the multiplication (*)
+just use the binary manuplation 
+
+when find the multiplication 
+5*3
+look at this the binary of (3)
+ 1 0 1
+  how we convert this binary to decimal number 
+  1*(2^2) + 0*(2^1) + 1*(2^0)
+
+  now if we multiple the according bit index 
+
+  1*(2^2) + 0*(2^1) + 1*(2^0)
+  10<<1   + 5<<1    + 5<<0
+
+here the we not calculate the value curresponding to 0 so the 
+  result -->
+
+  20 + 0 + 5 = 25
