@@ -1,4 +1,4 @@
-package bitmanuplation.set_kth_bit;
+package set_kth_bit;
 
 public class Setbit {
     public static void main(String[] args) {

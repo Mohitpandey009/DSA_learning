@@ -1,4 +1,4 @@
-package bitmanuplation.bit_multiple;
+package bit_multiplication;
 
 public class Bitmultiple {
 

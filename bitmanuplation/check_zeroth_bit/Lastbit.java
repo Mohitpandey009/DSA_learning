@@ -1,4 +1,4 @@
-package bitmanuplation.check_zeroth_bit;
+package check_zeroth_bit;
 
 public class Lastbit {
     public static void main(String[] args) {
